@@ -7,21 +7,15 @@
     <title>Universal Bingo Framework</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script type="text/javascript" src="teamData.js"></script>
     <script type="text/javascript" src="main.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
-
-
 </head>
 
 <body onload="main()">
     <header>
         <h1 class="page-header">Universal Bingo Framework</h1>
-        <p>v1.31</p>
+        <p>v1.4</p>
     </header>
-
-
-    <button id="button" onclick="newName();">Generate a bingo card!</button>
 
     <div id="container">
         <br>
@@ -45,7 +39,7 @@
                     <td id="20"> </td>
                     <td id="21"> </td>
                     <td id="free">
-                        <div class="checked">
+                        <div onclick="clickMe(this)">
                             FREE SPACE
                         </div>
                     </td>

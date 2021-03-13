@@ -20,16 +20,11 @@ function main() {
 
         id.appendChild(div);
     }
+    makeCard();
 }
 
-function newName() {
-    // you must define the source type when trying to clone an array
-    // var bingo = bingoBackup DOES NOT WORK
+function makeCard() {
     var bingo = [...bingoBackup];
-
-    // change button text after clicking it once
-    var button = document.getElementById("button");
-    button.innerText = "Again!";
 
     for (i = 0; i < 24; i++) {
 
