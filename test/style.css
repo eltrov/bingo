@@ -96,6 +96,8 @@ body {
 }
 
 .footer {
+    display: flex;
+    justify-content: center;
     position: absolute;
     bottom: 0vh;
     width: 100%;
