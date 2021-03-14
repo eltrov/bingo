@@ -97,7 +97,7 @@ body {
 
 .footer {
     position: absolute;
-    bottom: 3px;
+    bottom: 0vh;
     width: 100%;
     background-color: #222426;
     align-items: center;
