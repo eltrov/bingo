@@ -104,6 +104,9 @@ body {
 }
 
 .footer {
+    position: absolute;
+    bottom: calc(max-height);
+    width: 100%;
     display: grid;
     background-color: #222426;
     align-items: center;
@@ -113,4 +116,8 @@ p,
 a {
     font-family: "Lora", "Courier New", monospace, serif;
     color: #fff;
+}
+
+hr {
+    height: 500px;
 }
