@@ -19,6 +19,10 @@ table * {
     margin-bottom: 10px;
 }
 
+header {
+    padding-bottom: 25px;
+}
+
 p {
     margin-left: 1em;
     font-size: 14px;
