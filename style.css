@@ -4,10 +4,10 @@ body {
     text-align: center;
 }
 
+header p,
 h1,
 h2,
 h6,
-p,
 a,
 table * {
     color: #222426;
@@ -17,10 +17,6 @@ table * {
 .page-header {
     display: inline;
     margin-bottom: 10px;
-}
-
-header {
-    padding-bottom: 25px;
 }
 
 p {
@@ -84,4 +80,37 @@ div {
     margin: auto;
     align-items: center;
     justify-content: center;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: -3em;
+}
+
+.push {
+    height: 100px;
+}
+
+.footer {
+    height: 3em;
+}
+
+.footer {
+    display: grid;
+    background-color: #222426;
+    align-items: center;
+}
+
+p,
+a {
+    font-family: "Lora", "Courier New", monospace, serif;
+    color: #fff;
 }
