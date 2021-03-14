@@ -39,6 +39,8 @@ function newName() {
 
         bingo.splice(rng, 1);
     }
+
+    (document.getElementById("25")).innerText = "FREE SPACE";
 }
 
 function clickMe(clicked) {
